@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Traits;
+namespace Leonardjke\LaravelQueryFilter;
 
 /**
- *	This file is part of the Leonardjke\LaravelQueryBuilder package for Laravel.
+ *	This file is part of the Leonardjke\LaravelQueryFilter package for Laravel.
  *
  *	@license http://opensource.org/licenses/MIT MIT
  */
