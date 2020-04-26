@@ -12,9 +12,7 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Builder;
 
-trait FilterableTrait {
-
-    public $filterable;
+trait Filterable {
 
     /**
      * @param Builder $filter
