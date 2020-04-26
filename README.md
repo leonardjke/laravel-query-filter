@@ -25,19 +25,13 @@ Run 'composer dump-autoload' from the command line:
 
     #composer dump-autoload
     
-Register the service provider in 'app/config/app.php'.  Service provider:
-
-    'providers' => array(
-        \\...
-        'Heroicpixels\Filterable\FilterableServiceProvider',
-        \\...
-    );
-    
+   
 <a name="license"></a>
 
 License
 =======
 Copyright 2020 leonardjke
+
 Released under MIT license (http://opensource.org/licenses/MIT).  See LICENSE file for details.
 
 <a name="usage"></a>
@@ -45,11 +39,11 @@ Released under MIT license (http://opensource.org/licenses/MIT).  See LICENSE fi
 Usage
 =====
 
-**FilterableTrait.php**
+**Filterable.php**
 
     class Object extends Eloquent {
     
-       use Leonardjke\LaravelQueryBuilder\FilterableTrait;
+       use Leonardjke\LaravelQueryFilter\Filterable;
 
     }
     
