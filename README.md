@@ -18,7 +18,7 @@ Installation
 Add the package to 'require' in your composer.json file:
 
     "require": {
-        "leonardjke/laravel-query-filter": "master"
+        "leonardjke/laravel-query-filter": "dev-master"
     },
 
 Run 'composer dump-autoload' from the command line:
