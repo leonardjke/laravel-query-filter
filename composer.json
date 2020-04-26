@@ -1,0 +1,21 @@
+{
+    "name": "leonardjke/laravel-query-filter",
+    "description": "Laravel package for dynamically filtering Eloquent results using URL query string.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leonardjke",
+            "email": "a@minedonate.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "illuminate/support": ">=4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leonardjke\\LaravelQueryFilter\\": "src/"
+        }
+    }
+}
